@@ -297,7 +297,7 @@ while run:
         player(xhost,yhost,(248,252,248,255))
         xhost += 1
         phost(xhost,yhost)
-    pygame.time.delay(1)
+    pygame.time.delay(0)
     ev=pygame.event.get()
     for event in ev:
         if event.type == pygame.KEYDOWN:
